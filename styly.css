@@ -1,20 +1,20 @@
 h1 {
-    color: rgb(3, 2, 2);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     font-weight: 400;
-}	
+}
 
 body {
   font-family: "Archivo Black", sans-serif;
   font-weight: 200;
   font-style: normal;
-  background-color: rgb(98, 85, 213);
+  background-color: rgb(24, 97, 131);
 }
 
 img { 
     width: 300px; 
     border-radius: 15px; 
-}
+}  
 
 a {
     color:blueviolet
@@ -40,16 +40,21 @@ nav ul li{
     text-align: center;
     line-height: 50px;
     font-size: 30px;
+    padding: 1vw;
+    flex-wrap: wrap;
+
+
 }
 nav ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 25px;
     white-space: nowrap;
-    margin-right: 40px;
+    text-align: center;
     padding: 0 15px;
     font-weight: bold;
-
+    border-radius: 2vw;
+    
     border: 2px solid-black;
     border-radius: 25px;
     background-color: white;
