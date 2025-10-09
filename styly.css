@@ -1,3 +1,4 @@
+
 h1 {
     color: rgb(0, 0, 0);
     font-size: 40px;
@@ -71,4 +72,32 @@ p {
 
 h2 {
     text-align: center;
+}
+/* 📱 Skrýt text v menu na mobilních zařízeních */
+@media (max-width: 600px) {
+  nav ul li a span {
+    display: none;
+  }
+}
+
+/* 🎨 Styly pro ikonky v menu */
+nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* mezera mezi ikonou a textem */
+}
+
+/* 🖼️ Galerie obrázků zarovnaná na střed */
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.galerie img {
+  width: 300px;
+  border-radius: 15px;
 }
