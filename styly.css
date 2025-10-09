@@ -60,11 +60,9 @@ nav ul li a{
     background-color: white;
     display: inline-block; 
 }
-nav ul li a:hover{
-    border-bottom: 2px solid black;
-    color: rgba(59, 57, 57, 0.134);
-    font-weight: bold;
-}
+
+
+
 h1 {
     text-align: center;
  }
