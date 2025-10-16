@@ -1,1 +1,0 @@
-# DanielDobrovolny.github.io
