@@ -73,22 +73,22 @@ p {
 h2 {
     text-align: center;
 }
-/* 📱 Skrýt text v menu na mobilních zařízeních */
+
 @media (max-width: 600px) {
   nav ul li a span {
     display: none;
   }
 }
 
-/* 🎨 Styly pro ikonky v menu */
+
 nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* mezera mezi ikonou a textem */
+  gap: 10px; 
 }
 
-/* 🖼️ Galerie obrázků zarovnaná na střed */
+
 .galerie {
   display: flex;
   flex-wrap: wrap;
